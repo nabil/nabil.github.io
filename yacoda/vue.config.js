@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/yacoda/'
+    publicPath: '/nabil.github.io/'
 }

@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/nabil.github.io/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/nabil.github.io/'
+    : '/'
 }
